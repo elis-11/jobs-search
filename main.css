@@ -1,0 +1,30 @@
+body {
+	font-size: 2rem;
+	font-family: verdana, arial, helvetica;
+}
+
+h1 {
+	background-color: #eee;
+}
+
+.title {
+	font-size: 1.5rem;
+}
+
+.skills {
+	font-size: 1.3rem;
+	color: #555;
+	margin: 0 0 10px 0;
+}
+
+a {
+	color: navy;
+}
+
+.searchText {
+	font-size: 2rem;
+}
+
+.controlArea {
+	margin: 0 0 20px 0;
+}
