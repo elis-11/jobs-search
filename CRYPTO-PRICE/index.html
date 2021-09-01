@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>435</title>
+</head>
+
+<body>
+    <main>
+        <h1>Crypto-Rate</h1>
+
+        <form action="#" id="crypto-form">
+            <div class="outer-wrapper">
+            <div class="subform">
+                <label for="">Crypto-currency</label>
+                <select id="crypto-type" >
+                    <option value="btc" name="#">BTC</option>
+                    <option value="xrp">XRP</option>
+                    <option value="eos">EOS</option>
+                    <option value="ltc">LTC</option>
+                    <option value="eth">ETH</option>
+                </select>
+            </div>
+            <input type="number" id="crypto-value" />
+        </div>
+
+            <br />
+            <br />
+
+            <div class="outer-wrapper">
+            <div class="subform">
+                <label for="">Currency</label>
+                <select id="money-type" >
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="gbp">GBP</option>
+                    <option value="aud">AUD</option>
+                    <option value="hk">HK</option>
+                </select>
+            </div>
+            <input type="number" id='result-output' />
+        </div>
+            <button id="convert" type='submit'>Convert</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
