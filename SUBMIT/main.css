@@ -1,0 +1,49 @@
+body {
+	font-size: 2rem;
+	padding: 0 50px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input, button {
+	font-size: 1.5rem;
+}
+
+#submit-form {
+	background-color: #eee;
+	padding: 20px 30px 30px 30px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+label {
+	font-size: 1.3rem;
+	color: brown;
+}
+
+label::after {
+	content: ': ';
+}
+
+form div:not(:first-of-type) {
+	margin-top: 10px;
+}
+
+input {
+	width: 100%;
+}
+
+input::placeholder {
+	color: #bbb;
+}
+
+#sendInfo {
+	width: 0.85rem;
+	height: 1.35rem;
+	transform: scale(2);
+	margin-left: 10px;
+}
+
+.message {
+	display: none;
+	color: brown;
+}
